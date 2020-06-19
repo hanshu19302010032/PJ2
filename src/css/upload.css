@@ -1,0 +1,263 @@
+header, nav, main, footer {
+    display: block;
+}
+
+body {
+    background-image: url("images/background.jpg");
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 600px;
+    max-width: 900px;
+    box-shadow: 5px 5px 5px #1e1e1e;
+    background-color: #000033;
+}
+
+header {
+    background-color: #000033; /*make the color same as header.jpg*/
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border-bottom: 2px solid #000000;
+
+}
+
+header h1 {
+    line-height: 200%; /*the height of one text line*/
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 20px;
+    height: 72px;
+    margin-bottom: 0;
+    font-size: 2.8em;
+    font-weight: bolder;
+}
+
+#navigation {
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+#navigation li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#navigation ul a {
+    color: gold;
+    text-decoration: none;
+    font-size: 1.0em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: 1px dashed #ffffff;
+}
+
+
+#navigation a:hover {
+    color: #FFFFFF;
+    font-style: italic;
+    border-bottom: 2px solid #ffffff;
+    font-size: 1.1em;
+}
+
+
+#navigation ul li ul {
+    display: none;
+    text-align: left;
+}
+
+
+#navigation ul li:hover ul {
+    display: block;
+    text-align: left;
+}
+.mark {
+    font-size: 1.5em;
+}
+
+
+#floatleft {
+    float: left;
+}
+
+#floatright {
+    float: right;
+    padding-right: 40px;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    padding-top: 1px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(125deg, #60a3bc, #eb2f06);
+}
+
+
+footer {
+    color: whitesmoke;
+    background-color: #000000;
+    font-size: .70em;
+    font-style: italic;
+    padding: 10px;
+    clear: both;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+}
+
+footer div {
+    position: fixed;
+    right: 20px;
+    bottom: 1px;
+}
+
+
+.login {
+    width: 400px;
+    height: 570px;
+    margin: 30px auto 0 auto;
+    border: 2px solid #eb2f06;
+    border-right-color: #60a3bc;
+    border-top-color: #60a3bc;
+    border-radius: 20px;
+    background: black;
+    opacity: 0.6;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+}
+
+
+.login * {
+    display: block;
+}
+
+.label {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color: #60a3bc;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.pass_label {
+    top: 180px;
+}
+
+.pass_label2 {
+    top: 260px;
+}
+
+.pass_label3 {
+    top: 340px;
+}
+
+.input {
+    width: 340px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid #60a3bc;
+    color: white;
+    outline: none;
+    font-size: 18px;
+}
+
+.pass_input {
+    top: 180px;
+}
+
+.pass_input2 {
+    top: 260px;
+}
+
+.pass_input3 {
+    top: 340px;
+}
+
+textarea {
+    position: absolute;
+    top: 420px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*valid:when you are giving a correct input*/
+.input:focus ~ label, .input:valid ~ label {
+    top: 90px;
+    font-size: 16px;
+    color: #eb2f06;
+}
+
+.pass_input:focus ~ label, .pass_input:valid ~ label {
+    top: 170px;
+}
+
+.pass_input2:focus ~ label, .pass_input2:valid ~ label {
+    top: 250px;
+}
+
+.pass_input3:focus ~ label, .pass_input3:valid ~ label {
+    top: 330px;
+}
+
+.submit {
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    top: 490px;
+    left: 110px;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    background: #60a3bc;
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: #1a1a1a;
+    background-image: linear-gradient(135deg, #60a3bc, #eb2f06);
+    transition: 0.8s;
+}
+
+.preview {
+    margin: 0 auto 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.preview img {
+    width: 100%;
+}
+
+.container {
+    margin: 10px 300px 0 300px;
+}

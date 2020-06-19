@@ -1,0 +1,61 @@
+header, nav, main, footer {
+    display: block;
+}
+
+body {
+    background-image: url("images/background.jpg");
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 600px;
+    max-width: 900px;
+    box-shadow: 5px 5px 5px #1e1e1e;
+}
+
+header {
+    background-color: #000033; /*make the color same as header.jpg*/
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border-bottom: 2px solid #000000;
+
+}
+
+header h1 {
+    line-height: 200%; /*the height of one text line*/
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 20px;
+    height: 72px;
+    margin-bottom: 0;
+    font-size: 2.8em;
+    font-weight: bolder;
+}
+
+footer {
+    color: black;
+    font-size: .70em;
+    font-style: italic;
+    padding: 10px;
+    clear: both;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+}
+
+footer div {
+    position: fixed;
+    right: 20px;
+    bottom: 1px;
+}
+
+

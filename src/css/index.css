@@ -1,0 +1,162 @@
+header, nav, main, footer {
+    display: block;
+}
+
+body {
+    background-image: url("images/background.jpg");
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #000033;
+    min-width: 600px;
+    max-width: 900px;
+    box-shadow: 5px 5px 5px #1e1e1e;
+}
+
+header {
+    background-color: #000033; /*make the color same as header.jpg*/
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border-bottom: 2px solid #000000;
+    height: 100px;
+}
+
+header h1 {
+    line-height: 200%; /*the height of one text line*/
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 20px;
+    height: 72px;
+    margin-bottom: 0;
+    font-size: 2.8em;
+    font-weight: bolder;
+}
+
+#floatleft {
+    float: left;
+}
+
+#floatright {
+    float: right;
+    padding-right: 40px;
+}
+
+nav {
+    float: left;
+    font-weight: bold;
+    width: 220px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    position: fixed;
+    top: 100px
+}
+
+
+nav li {
+    list-style-type: none;
+}
+
+nav ul a {
+    color: gold;
+    text-decoration: none;
+    font-size: 1.0em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: 1px dashed #ffffff;
+}
+
+
+nav a:hover {
+    color: #FFFFFF;
+    font-style: italic;
+    border-bottom: 2px solid #ffffff;
+    font-size: 1.1em;
+}
+
+
+nav ul li ul {
+    display: none;
+    text-align: left;
+}
+
+
+nav ul li:hover ul {
+    display: block;
+    text-align: left;
+}
+
+main {
+    margin: 0 0 0 220px;
+    padding: 1px 10px 20px 10px;
+    background-color: #ffffff;
+    color: #006600;
+}
+
+main ul {
+    list-style-position: inside;
+}
+
+
+main img {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+main li {
+    display: inline-block;
+    width: 225px;
+    padding-bottom: 10px;
+    margin: 10px;
+    background-color: #EAEAEA;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, serif;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+main ul a {
+    text-decoration: none;
+}
+
+main ul a:hover {
+    color: white;
+    background-color: gray;
+    font-size: large;
+}
+
+
+footer {
+    color: whitesmoke;
+    background-color: #000000;
+    font-size: .70em;
+    font-style: italic;
+    padding: 10px;
+    clear: both;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+}
+
+footer div {
+    position: fixed;
+    right: 20px;
+    bottom: 1px;
+}
+#mark{
+    font-size: 1.5em;
+}
